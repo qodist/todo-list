@@ -1,4 +1,18 @@
-body {
-    background: orangered;
-    color: white;
+#container {
+    border: #666 solid 2px;
+    width: 360px;
+    margin: 0 auto;
+}
+
+#container h1 {
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+}
+
+.completed {
+    color: #555;
+    text-decoration: line-through;
 }
