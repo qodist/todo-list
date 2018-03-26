@@ -1,15 +1,32 @@
-#container {
-    border: #666 solid 2px;
-    width: 360px;
-    margin: 0 auto;
+body {
+    font-family: Roboto;
 }
 
-#container h1 {
+h1 {
+    background-color: #2980b9;
+    color:#fff;
+    margin: 0;
+    padding: 10px 20px;
     text-transform: uppercase;
+    font-size: 24px;
+    font-weight: normal;
 }
 
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li:nth-last-of-type(odd) {
+    background-color: #fff;
+}
+
+#container {
+    width: 360px;
+    margin: 100px auto;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
 }
 
 .completed {
